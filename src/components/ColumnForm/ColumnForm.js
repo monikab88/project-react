@@ -17,8 +17,8 @@ const ColumnForm = props => {
 
 	return (
         <form className={styles.columnForm} onSubmit={handleSubmit}>
-            <span className={styles.inputTitle}>Title:</span><TextInput type="text" value={title} onChange={e => setTitle(e.target.value)} />
-            <span className={styles.inputTitle}>Icon:</span> <TextInput type="text" value={icon} onChange={e => setIcon(e.target.value)} />
+            <span className={styles.inputTitle}>Title:</span><TextInput value={title} onChange={e => setTitle(e.target.value)} />
+            <span className={styles.inputTitle}>Icon:</span> <TextInput  value={icon} onChange={e => setIcon(e.target.value)} />
           <Button>Add column</Button>
         </form>   
     );
