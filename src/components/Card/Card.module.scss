@@ -14,7 +14,11 @@
 
 .button {
     border: none;
-    cursor: pointer;   
+    cursor: pointer; 
+    color: #9f9f9f;
+    :hover {
+        color: #0a0060;
+    }  
 } 
 
 .active {
